@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.main-bg {
+  height: 170px;
+  background-image: url('./img/bg.png');
+  background-size: cover;
+}
+
+.main-search {
+  display: flex;
+  text-align: left;
+  color: skyblue;
+  margin-left: 20px;
+}
+
+.custom-infowindow {
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+  background: #f9f9f9;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.mapWrapper {
+  width: calc(100vw - 40px);
+  height: calc(100vh - 40px);
+  padding: 20px;
+  border-radius: 50px;
+  overflow: hidden;
+}
